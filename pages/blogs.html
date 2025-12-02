@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs - Examido</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="../index.html" class="logo">EXAMIDO</a>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="nav-links">
+                    <a href="../index.html" class="nav-link">Home</a>
+                    <a href="stays.html" class="nav-link">SSB Stays</a>
+                    <a href="coachings.html" class="nav-link">Coachings</a>
+                    <a href="blogs.html" class="nav-link" style="color: var(--primary-color);">Defence Blogs</a>
+                    <a href="mentor.html" class="nav-link">Mentors</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <a href="../index.html" class="mobile-nav-link">Home</a>
+            <a href="stays.html" class="mobile-nav-link">SSB Stays</a>
+            <a href="coachings.html" class="mobile-nav-link">Coachings</a>
+            <a href="blogs.html" class="mobile-nav-link" style="color: var(--primary-color);">Defence Blogs</a>
+            <a href="mentor.html" class="mobile-nav-link">Mentors</a>
+        </div>
+    </nav>
+
+    <!-- Blogs Header -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <h1 class="hero-title" style="margin-bottom: 1.5rem;">Exam Preparation Blogs</h1>
+            <p class="hero-subtitle" style="margin-bottom: 2rem;">Expert tips, strategies, and insights from toppers and
+                educators to help you crack competitive exams</p>
+
+            <!-- Search Bar -->
+            <div style="max-width: 42rem; margin: 0 auto;">
+                <div class="relative">
+                    <input type="text" placeholder="Search blogs by exam, topic, or keyword..." class="input-search">
+                    <button class="btn-search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exam Categories -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Select Your Exam</h2>
+
+            <div class="grid-cols-4" style="display: grid; gap: 1.5rem;">
+                <!-- NDA Card -->
+                <a href="blog-category.html?exam=nda" class="category-card bg-gradient-blue">
+                    <div class="category-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="service-title" style="color: white;">NDA</h3>
+                    <p style="color: #dbeafe;">National Defence Academy</p>
+                </a>
+
+                <!-- CDS Card -->
+                <a href="blog-category.html?exam=cds" class="category-card bg-gradient-green">
+                    <div class="category-icon">
+                        <i class="fas fa-crosshairs"></i>
+                    </div>
+                    <h3 class="service-title" style="color: white;">CDS</h3>
+                    <p style="color: #dcfce7;">Combined Defence Services</p>
+                </a>
+
+                <!-- AFCAT Card -->
+                <a href="blog-category.html?exam=afcat" class="category-card bg-gradient-purple">
+                    <div class="category-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3 class="service-title" style="color: white;">AFCAT</h3>
+                    <p style="color: #f3e8ff;">Air Force Common Admission</p>
+                </a>
+
+                <!-- SSB Card -->
+                <a href="blog-category.html?exam=ssb" class="category-card bg-gradient-yellow">
+                    <div class="category-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="service-title" style="color: white;">SSB</h3>
+                    <p style="color: #fef9c3;">Service Selection Board</p>
+                </a>
+            </div>
+
+            <!-- More Exams -->
+            <div class="grid-cols-4 mt-16" style="display: grid; gap: 1.5rem; margin-top: 1.5rem;">
+                <a href="blog-category.html?exam=gate" class="category-card bg-gray-light"
+                    style="color: var(--text-primary);">
+                    <h3 class="service-title" style="margin-bottom: 0;">GATE</h3>
+                </a>
+                <a href="blog-category.html?exam=clat" class="category-card bg-gray-light"
+                    style="color: var(--text-primary);">
+                    <h3 class="service-title" style="margin-bottom: 0;">CLAT</h3>
+                </a>
+                <a href="blog-category.html?exam=ssc" class="category-card bg-gray-light"
+                    style="color: var(--text-primary);">
+                    <h3 class="service-title" style="margin-bottom: 0;">SSC</h3>
+                </a>
+                <a href="blog-category.html?exam=others" class="category-card bg-gray-light"
+                    style="color: var(--text-primary);">
+                    <h3 class="service-title" style="margin-bottom: 0;">Others</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Blogs -->
+    <section class="section" style="background-color: var(--bg-light);">
+        <div class="container">
+            <h2 class="section-title">Featured Blogs</h2>
+            <p class="section-subtitle">Most popular and highly recommended content by our student community</p>
+
+            <div class="blogs-grid">
+                <!-- Blog Card 1 -->
+                <div class="blog-card">
+                    <div class="blog-image bg-gradient-blue relative">
+                        <span
+                            class="absolute top-4 left-4 bg-white text-blue px-3 py-1 rounded-full text-sm font-semibold">NDA
+                            Exam</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">10 Last Minute Tips for NDA Written Exam</h3>
+                        <p class="blog-excerpt">Essential strategies to maximize your score in Mathematics and GAT
+                            papers.</p>
+                        <div class="flex justify-between items-center"
+                            style="font-size: 0.875rem; color: var(--text-secondary);">
+                            <div class="flex items-center">
+                                <i class="far fa-clock mr-1"></i>
+                                <span>5 min read</span>
+                            </div>
+                            <a href="blog-detail.html?id=1"
+                                style="color: var(--primary-color); font-weight: 500; text-decoration: none;">Read More
+                                →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 2 -->
+                <div class="blog-card">
+                    <div class="blog-image bg-gradient-green relative">
+                        <span
+                            class="absolute top-4 left-4 bg-white text-green px-3 py-1 rounded-full text-sm font-semibold">CDS
+                            OTA</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">English Strategy for CDS OTA Aspirants</h3>
+                        <p class="blog-excerpt">How to score 80+ in English paper with the right preparation strategy.
+                        </p>
+                        <div class="flex justify-between items-center"
+                            style="font-size: 0.875rem; color: var(--text-secondary);">
+                            <div class="flex items-center">
+                                <i class="far fa-clock mr-1"></i>
+                                <span>8 min read</span>
+                            </div>
+                            <a href="blog-detail.html?id=2"
+                                style="color: var(--primary-color); font-weight: 500; text-decoration: none;">Read More
+                                →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 3 -->
+                <div class="blog-card">
+                    <div class="blog-image bg-gradient-purple relative">
+                        <span
+                            class="absolute top-4 left-4 bg-white text-purple px-3 py-1 rounded-full text-sm font-semibold">SSB
+                            Interview</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Mastering the PPDT in Screening Test</h3>
+                        <p class="blog-excerpt">Tips to write a good story and perform well in the narration and
+                            discussion.</p>
+                        <div class="flex justify-between items-center"
+                            style="font-size: 0.875rem; color: var(--text-secondary);">
+                            <div class="flex items-center">
+                                <i class="far fa-clock mr-1"></i>
+                                <span>12 min read</span>
+                            </div>
+                            <a href="blog-detail.html?id=3"
+                                style="color: var(--primary-color); font-weight: 500; text-decoration: none;">Read More
+                                →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 4 -->
+                <div class="blog-card">
+                    <div class="blog-image bg-gradient-yellow relative">
+                        <span
+                            class="absolute top-4 left-4 bg-white text-yellow px-3 py-1 rounded-full text-sm font-semibold">AFCAT</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">AFCAT Reasoning: Tips to Score Full Marks</h3>
+                        <p class="blog-excerpt">Proven techniques to solve spatial ability and reasoning questions
+                            quickly.</p>
+                        <div class="flex justify-between items-center"
+                            style="font-size: 0.875rem; color: var(--text-secondary);">
+                            <div class="flex items-center">
+                                <i class="far fa-clock mr-1"></i>
+                                <span>7 min read</span>
+                            </div>
+                            <a href="blog-detail.html?id=4"
+                                style="color: var(--primary-color); font-weight: 500; text-decoration: none;">Read More
+                                →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 5 -->
+                <div class="blog-card">
+                    <div class="blog-image bg-gradient-red relative">
+                        <span
+                            class="absolute top-4 left-4 bg-white text-red px-3 py-1 rounded-full text-sm font-semibold">Medical</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">SSB Medicals: Common Rejections and Cures</h3>
+                        <p class="blog-excerpt">Understanding the medical standards and how to prepare for the medical
+                            exam.</p>
+                        <div class="flex justify-between items-center"
+                            style="font-size: 0.875rem; color: var(--text-secondary);">
+                            <div class="flex items-center">
+                                <i class="far fa-clock mr-1"></i>
+                                <span>10 min read</span>
+                            </div>
+                            <a href="blog-detail.html?id=5"
+                                style="color: var(--primary-color); font-weight: 500; text-decoration: none;">Read More
+                                →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 6 -->
+                <div class="blog-card">
+                    <div class="blog-image bg-gradient-indigo relative">
+                        <span
+                            class="absolute top-4 left-4 bg-white text-blue px-3 py-1 rounded-full text-sm font-semibold">Study
+                            Tips</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">The Pomodoro Technique: Boost Your Productivity 2x</h3>
+                        <p class="blog-excerpt">How to implement this time management method for effective study
+                            sessions.</p>
+                        <div class="flex justify-between items-center"
+                            style="font-size: 0.875rem; color: var(--text-secondary);">
+                            <div class="flex items-center">
+                                <i class="far fa-clock mr-1"></i>
+                                <span>6 min read</span>
+                            </div>
+                            <a href="blog-detail.html?id=6"
+                                style="color: var(--primary-color); font-weight: 500; text-decoration: none;">Read More
+                                →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="text-center mt-12">
+                <button class="btn btn-primary">
+                    Load More Blogs
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="contribute-section">
+        <div class="container text-center" style="max-width: 56rem;">
+            <h2 class="section-title" style="color: white;">Stay Updated with Latest Exam Tips</h2>
+            <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">Subscribe to our newsletter and get weekly
+                updates on exam strategies, important dates, and preparation tips.</p>
+
+            <div style="max-width: 28rem; margin: 0 auto; display: flex;">
+                <input type="email" placeholder="Enter your email" class="newsletter-input">
+                <button class="newsletter-btn">
+                    Subscribe
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 class="footer-title">EXAMIDO</h3>
+                    <p class="footer-text">Your one-stop solution for exam preparation and student accommodation needs.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="stays.html">SSB Stays</a></li>
+                        <li><a href="coachings.html">Coachings</a></li>
+                        <li><a href="blogs.html">Defence Blogs</a></li>
+                        <li><a href="mentor.html">Mentors</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Exams</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">NDA & NA Exam</a></li>
+                        <li><a href="#">CDS Exam</a></li>
+                        <li><a href="#">AFCAT</a></li>
+                        <li><a href="#">SSB Interview</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Contact Us</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>support@examido.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9876543210</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Delhi, India</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Examido. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/animations.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

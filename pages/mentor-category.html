@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defence Mentors - Examido</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="../index.html" class="logo">EXAMIDO</a>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="nav-links">
+                    <a href="../index.html" class="nav-link">Home</a>
+                    <a href="stays.html" class="nav-link">SSB Stays</a>
+                    <a href="coachings.html" class="nav-link">Coachings</a>
+                    <a href="blogs.html" class="nav-link">Defence Blogs</a>
+                    <a href="mentor.html" class="nav-link" style="color: var(--primary-color);">Mentors</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <a href="../index.html" class="mobile-nav-link">Home</a>
+            <a href="stays.html" class="mobile-nav-link">SSB Stays</a>
+            <a href="coachings.html" class="mobile-nav-link">Coachings</a>
+            <a href="blogs.html" class="mobile-nav-link">Defence Blogs</a>
+            <a href="mentor.html" class="mobile-nav-link" style="color: var(--primary-color);">Mentors</a>
+        </div>
+    </nav>
+
+    <!-- Category Header -->
+    <section class="hero-section"
+        style="background: linear-gradient(to right, #7c3aed, #6d28d9); padding: 4rem 0; text-align: center;">
+        <div class="container">
+            <h1 class="hero-title" style="margin-bottom: 1rem;">Find Your Defence Mentor</h1>
+            <p class="hero-subtitle" style="margin-bottom: 0; color: #ddd6fe;">Connect with Ex-Assessors and Recommended
+                Candidates for personalized guidance.</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="section">
+        <div class="container">
+            <div class="flex flex-col lg:flex-row gap-8">
+
+                <!-- Sidebar Filters -->
+                <aside class="lg:w-1/4">
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 sticky top-24">
+                        <h3 class="font-bold text-gray-900 mb-4 text-lg">Categories</h3>
+                        <ul class="space-y-2">
+                            <li>
+                                <a href="#"
+                                    class="flex items-center justify-between text-purple-600 font-semibold bg-purple-50 px-3 py-2 rounded-lg">
+                                    <span>All Mentors</span>
+                                    <span
+                                        class="bg-purple-200 text-purple-800 text-xs px-2 py-1 rounded-full">124</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="flex items-center justify-between text-gray-600 hover:bg-gray-50 px-3 py-2 rounded-lg transition-colors">
+                                    <span>Ex-Assessors</span>
+                                    <span class="bg-gray-200 text-gray-600 text-xs px-2 py-1 rounded-full">18</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="flex items-center justify-between text-gray-600 hover:bg-gray-50 px-3 py-2 rounded-lg transition-colors">
+                                    <span>Recommended Candidates</span>
+                                    <span class="bg-gray-200 text-gray-600 text-xs px-2 py-1 rounded-full">85</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="flex items-center justify-between text-gray-600 hover:bg-gray-50 px-3 py-2 rounded-lg transition-colors">
+                                    <span>Written Exam Experts</span>
+                                    <span class="bg-gray-200 text-gray-600 text-xs px-2 py-1 rounded-full">42</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <h3 class="font-bold text-gray-900 mt-8 mb-4 text-lg">Specialization</h3>
+                        <div class="space-y-2">
+                            <label class="flex items-center space-x-2 cursor-pointer">
+                                <input type="checkbox" class="form-checkbox text-purple-600 rounded">
+                                <span class="text-gray-700">Psychology Test</span>
+                            </label>
+                            <label class="flex items-center space-x-2 cursor-pointer">
+                                <input type="checkbox" class="form-checkbox text-purple-600 rounded">
+                                <span class="text-gray-700">GTO Tasks</span>
+                            </label>
+                            <label class="flex items-center space-x-2 cursor-pointer">
+                                <input type="checkbox" class="form-checkbox text-purple-600 rounded">
+                                <span class="text-gray-700">Personal Interview</span>
+                            </label>
+                            <label class="flex items-center space-x-2 cursor-pointer">
+                                <input type="checkbox" class="form-checkbox text-purple-600 rounded">
+                                <span class="text-gray-700">Screening (PPDT)</span>
+                            </label>
+                            <label class="flex items-center space-x-2 cursor-pointer">
+                                <input type="checkbox" class="form-checkbox text-purple-600 rounded">
+                                <span class="text-gray-700">NDA Written</span>
+                            </label>
+                            <label class="flex items-center space-x-2 cursor-pointer">
+                                <input type="checkbox" class="form-checkbox text-purple-600 rounded">
+                                <span class="text-gray-700">CDS Written</span>
+                            </label>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Mentor Grid -->
+                <div class="lg:w-3/4">
+                    <div class="flex justify-between items-center mb-6">
+                        <p class="text-gray-600">Showing <span class="font-semibold text-gray-900">1-6</span> of <span
+                                class="font-semibold text-gray-900">124</span> mentors</p>
+                        <select
+                            class="border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-purple-500">
+                            <option>Highest Rated</option>
+                            <option>Most Reviews</option>
+                            <option>Experience: High to Low</option>
+                            <option>Price: Low to High</option>
+                        </select>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <!-- Mentor 1 -->
+                        <div class="mentor-card">
+                            <div class="mentor-avatar avatar-blue">
+                                Capt. RS
+                            </div>
+                            <h3 class="mentor-name">Capt. Rahul Sharma (Retd)</h3>
+                            <p class="mentor-role">Ex-GTO, 14 SSB Allahabad</p>
+                            <div class="mb-4">
+                                <span class="mentor-tag tag-blue">GTO Expert</span>
+                                <span class="mentor-tag tag-green">SSB</span>
+                            </div>
+                            <div class="flex items-center justify-center mb-4 text-yellow-500">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <span class="text-gray-500 text-sm ml-2">(150+ reviews)</span>
+                            </div>
+                            <button data-phone="+919116285575" class="btn-block bg-blue">Book Session</button>
+                        </div>
+
+                        <!-- Mentor 2 -->
+                        <div class="mentor-card">
+                            <div class="mentor-avatar avatar-green">
+                                Lt. AP
+                            </div>
+                            <h3 class="mentor-name">Lt. Anjali P.</h3>
+                            <p class="mentor-role">AIR 4, OTA Chennai</p>
+                            <div class="mb-4">
+                                <span class="mentor-tag tag-purple">Psychology</span>
+                                <span class="mentor-tag tag-yellow">Interview</span>
+                            </div>
+                            <div class="flex items-center justify-center mb-4 text-yellow-500">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                <span class="text-gray-500 text-sm ml-2">(85 reviews)</span>
+                            </div>
+                            <button data-phone="+919116285575" class="btn-block bg-green">Book Session</button>
+                        </div>
+
+                        <!-- Mentor 3 -->
+                        <div class="mentor-card">
+                            <div class="mentor-avatar avatar-purple">
+                                Cdt. VK
+                            </div>
+                            <h3 class="mentor-name">Vikram Kumar</h3>
+                            <p class="mentor-role">Recommended for NDA 149</p>
+                            <div class="mb-4">
+                                <span class="mentor-tag tag-green">Screening</span>
+                                <span class="mentor-tag tag-red">Written</span>
+                            </div>
+                            <div class="flex items-center justify-center mb-4 text-yellow-500">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="far fa-star"></i>
+                                <span class="text-gray-500 text-sm ml-2">(42 reviews)</span>
+                            </div>
+                            <button data-phone="+919116285575" class="btn-block bg-purple">Book Session</button>
+                        </div>
+
+                        <!-- Mentor 4 -->
+                        <div class="text-sm text-gray">
+                            <i class="fas fa-rupee-sign mr-1"></i>
+                            <span class="font-semibold">699</span>/session
+                        </div>
+                        <div class="text-sm text-green font-semibold">
+                            <i class="fas fa-circle text-xs mr-1"></i>
+                            Available Now
+                        </div>
+                    </div>
+                    <button class="btn-block bg-green inline-flex items-center justify-center"
+                        style="border: none; cursor: pointer;">
+                        <i class="fab fa-whatsapp mr-2"></i>
+                        Connect via WhatsApp
+                    </button>
+                </div>
+            </div>
+
+            <!-- Load More -->
+            <div class="text-center mt-12">
+                <button class="btn btn-primary">
+                    Load More Mentors
+                </button>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div style="flex: 1;">
+            <!-- Quick Stats -->
+            <div class="sidebar-widget">
+                <h3 class="widget-title">Defence Mentors Stats</h3>
+                <div class="space-y-4">
+                    <div class="flex justify-between items-center">
+                        <span class="text-gray">Total Mentors</span>
+                        <span class="font-semibold text-blue">124</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-gray">Average Rating</span>
+                        <span class="font-semibold text-yellow">4.8/5</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-gray">Response Time</span>
+                        <span class="font-semibold text-green">
+                            < 2 hours</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-gray">Success Rate</span>
+                        <span class="font-semibold text-purple">94%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Become Mentor CTA -->
+            <div class="bg-gradient-purple"
+                style="border-radius: 0.75rem; padding: 1.5rem; margin-bottom: 2rem; color: white;">
+                <h3 class="widget-title" style="color: white;">Become a Defence Mentor</h3>
+                <p style="color: #f3e8ff; margin-bottom: 1rem;">Share your SSB/Exam experience and help aspiring
+                    candidates while earning.</p>
+                <button class="btn-block bg-white"
+                    style="color: var(--secondary-color); font-weight: 600; border: none; cursor: pointer;">
+                    Apply Now
+                </button>
+            </div>
+
+            <!-- Testimonials -->
+            <div class="sidebar-widget">
+                <h3 class="widget-title">Candidate Testimonials</h3>
+                <div class="space-y-4">
+                    <div class="bg-gray-light rounded-lg p-4">
+                        <div class="flex text-yellow mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray text-sm mb-2">"Capt. Sharma's GTO tips were a game changer. I got
+                            recommended in my 2nd attempt!"</p>
+                        <p class="text-gray text-sm font-semibold">- Rahul, NDA 149 Recommended</p>
+                    </div>
+                    <div class="bg-gray-light rounded-lg p-4">
+                        <div class="flex text-yellow mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray text-sm mb-2">"Lt. Anjali's interview guidance helped me frame my answers
+                            perfectly."</p>
+                        <p class="text-gray text-sm font-semibold">- Priya, OTA Chennai</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section" style="background-color: var(--bg-light);">
+        <div class="container text-center">
+            <h2 class="section-title">How to Connect with Mentors</h2>
+
+            <div class="grid-cols-3" style="display: grid; gap: 2rem;">
+                <div class="text-center">
+                    <div
+                        style="width: 5rem; height: 5rem; margin: 0 auto 1.5rem; background-color: #dbeafe; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <span style="color: var(--primary-color); font-weight: 700; font-size: 1.25rem;">1</span>
+                    </div>
+                    <h3 class="service-title">Choose Your Mentor</h3>
+                    <p class="text-gray">Browse through verified Defence mentors and select based on specialization,
+                        rating,
+                        and availability.</p>
+                </div>
+
+                <div class="text-center">
+                    <div
+                        style="width: 5rem; height: 5rem; margin: 0 auto 1.5rem; background-color: #dcfce7; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <span style="color: var(--success-color); font-weight: 700; font-size: 1.25rem;">2</span>
+                    </div>
+                    <h3 class="service-title">Connect via WhatsApp</h3>
+                    <p class="text-gray">Click the WhatsApp button to directly message the mentor and discuss your
+                        requirements.</p>
+                </div>
+
+                <div class="text-center">
+                    <div
+                        style="width: 5rem; height: 5rem; margin: 0 auto 1.5rem; background-color: #f3e8ff; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <span style="color: var(--secondary-color); font-weight: 700; font-size: 1.25rem;">3</span>
+                    </div>
+                    <h3 class="service-title">Schedule Session</h3>
+                    <p class="text-gray">Book your session, get personalized guidance, and accelerate your Defence
+                        preparation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 class="footer-title">EXAMIDO</h3>
+                    <p class="footer-text">Your one-stop solution for exam preparation and student accommodation needs.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="stays.html">SSB Stays</a></li>
+                        <li><a href="coachings.html">Coachings</a></li>
+                        <li><a href="blogs.html">Defence Blogs</a></li>
+                        <li><a href="mentor.html">Mentors</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Exams</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">NDA & NA Exam</a></li>
+                        <li><a href="#">CDS Exam</a></li>
+                        <li><a href="#">AFCAT</a></li>
+                        <li><a href="#">SSB Interview</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Contact Us</h4>
+                    <ul class="footer-links">
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>support@examido.com</span>
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-phone mr-2"></i>
+                            <span>+91 9876543210</span>
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <span>Delhi, India</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Examido. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/animations.js"></script>
+    <script src="../js/main.js"></script>
+    <style>
+        @media (min-width: 1024px) {
+            .flex-col-lg-row {
+                flex-direction: row;
+            }
+
+            .lg-w-8-12 {
+                width: 66.666667%;
+            }
+
+            .lg-w-4-12 {
+                width: 33.333333%;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .grid-cols-2 {
+                grid-template-columns: 1fr !important;
+            }
+        }
+    </style>
+</body>
+
+</html>
